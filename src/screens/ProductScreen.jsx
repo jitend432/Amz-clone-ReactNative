@@ -18,6 +18,7 @@ export default function ProductScreen() {
          <Image source={item.image} style={styles.productImg}/>
        </View>
        
+       
        <View style={styles.productDetailSection}>
          <Text style={styles.sponsored}>Sponsored</Text>
          <Text style={styles.productName}>{item.productName}</Text>
